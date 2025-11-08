@@ -11,3 +11,6 @@ class Tracker:
 
     def __str__(self):
         return f"current count: {self.count}"
+    
+    def reset(self):
+        self.count = 0
